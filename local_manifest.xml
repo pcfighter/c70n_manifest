@@ -2,16 +2,15 @@
 <manifest>
 
  <!-- Shared LG's trees for msm8916 family -->
-  <project path="device/lge/msm8916-common" name="pcfighter/android_device_lge_msm8916-common" remote="github" revision="cm-14.1" />
-  <project path="kernel/lge/nougat" name="pcfighter/android_kernel_lge_nougat" revision="master" />
+  <project path="device/lge/msm8916-common" name="LG-K10/android_device_lge_msm8916-common" revision="cm-14.1" />
+  <project path="kernel/lge/msm8916" name="LG-K10/android_kernel_lge_msm8916" revision="cm-14.1" />
 
  <!-- LG Spirit device tree and dependencies -->
   <project path="device/lge/c70n" name="pcfighter/android_device_lge_c70n" revision="cm-14.1" />
   <project path="vendor/lge" name="pcfighter/android_vendor_lge" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1"/>
+  <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1"/>
 
- <!-- CAF audio/media -->
-  <project path="hardware/qcom/audio-caf" name="touchpro/android_hardware_qcom_audio-caf" revision="master" />
-  <project path="hardware/qcom/display-caf" name="touchpro/android_hardware_qcom_display-caf" revision="master" />
  <!-- qcom/common device tree for dtbtool -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
 </manifest>
