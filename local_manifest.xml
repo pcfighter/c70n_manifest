@@ -7,7 +7,7 @@
 
  <!-- LG Spirit device tree and dependencies -->
   <project path="device/lge/c70n" name="pcfighter/android_device_lge_c70n" revision="cm-14.1" />
-  <project path="vendor/lge" name="pcfighter/android_vendor_lge" revision="cm-14.1" />
+  <project path="vendor/lge/c70n" name="pcfighter/android_vendor_lge_c70n" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1"/>
   <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-14.1"/>
 
